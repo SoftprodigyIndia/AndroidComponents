@@ -8,4 +8,6 @@
     <string name="title_activity_home">Fingerprint</string>
     <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
     <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+    <string name="warning_network_error">Please check your internet connection</string>
+    <string name="error_occurred">Oops! and error occured</string>
 </resources>
