@@ -5,3 +5,4 @@ This project contains reusable components that can be straight away integrated i
 Components added so far:
 
 # 1. Biometric Fingerprint Authentication
+# 2. Commonly Used Extension Functions
