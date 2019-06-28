@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/permissionsFragment">
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="softprodigy.samplesapplication.fragments.CameraFragment"
+        android:label="CameraFragment" >
+        <action
+            android:id="@+id/action_camera_to_gallery"
+            />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/permissionsFragment"
+        android:name="softprodigy.samplesapplication.fragments.PermissionsFragment"
+        android:label="PermissionsFragment" >
+        <action
+            android:id="@+id/action_permissions_to_camera"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+
+</navigation>
