@@ -1,0 +1,476 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-google-signin] /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.3] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/0d66da7e86d9df3a018f095c41f2a2d3/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/262ad62e09fe56d54c4b332d3e664580/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2312bf56922180d5c7bcdd0607d271e1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/bae3e4e8e62c3bebc4a31a3a2f75ab65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1c901faf45e6bd094d16f313ee771fba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/17744e18821463964db12266d8859010/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a41e2f2c95077dd397098e9914368e73/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/624d905630b145819a2f76a6cc3aad30/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/67e5f94bb52b0d7c8cadb5485b39b542/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba9429fa641c6cda6ba5556e7af14af1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/577dff638a2adc2ea04b3de01dda2e32/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/dbeb07fdbfdee77923084806fd79a545/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f180cae9e6dca4d90a7ce010b98df847/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/935691d051ca6801d35f433c95bb44ca/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/82278c02de740364afe7d32a62268bd5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/682fb0921f877c8a6395bd56736380d5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a9b63b49c908daeed981b33bc6e61ffb/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2dc343130a95e211b6007076202f31aa/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8a2679dcf929f1e315e4450ce630d709/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c6239df2356d920b04f2c22478c0f9c8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c4f207736205743a6129a69e5828a387/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/fc47e3e7fb910ee18427c790b23e8f81/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a482af7fe062fce26112f5542454f115/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2c23ae4744a0a6fd1fcede05a19558c8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/3f25c33bedd3e12f0fa7e8b6f3808922/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a7e9fd255577468b996585e72c0cac8b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1619f7189b1ebc70572f80f68ea7e3d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/213c17a3c148f7fcca9d666917465d42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba852e7b41f4bebc4a35e443f78420e2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/4b548aa039cae2f91952988e85895d0b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/60843693ca8c2f85c2d5a1207243f4b9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ea1f4ed71f2c7e72f51399d57156cb52/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/88fda191efeafcc44055fbaed0394301/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebdf178d307272e6fd234831314ef3d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/5394f765f558a581d7cd7eb7af31b6af/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7bac6bddcb82c45dc58543aadaa449f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/cc70bead13334539c965f820d75607a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ecefa05f50f1a444d79a32c0fa255d78/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/750c64e6816c95d8c2de42c01e205cf4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c06a04b4c00481b0736329124f357aab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f37a3b8677465d484b9c6bcca77117a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f0d9a61f749e76d07049bf13ab2fb5e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7ab1f5939e699a1603362a7cc2ce2158/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/796bb203e7f07787d57e47b6788061a5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebd5d357a701522f70a75c4508347895/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c26ad76cfda5b2c637d4fb6bba22c5d0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:2:3-32
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:2:3-32
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.61.3] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/0d66da7e86d9df3a018f095c41f2a2d3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.3] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/0d66da7e86d9df3a018f095c41f2a2d3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2312bf56922180d5c7bcdd0607d271e1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2312bf56922180d5c7bcdd0607d271e1/AndroidManifest.xml:7:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/dbeb07fdbfdee77923084806fd79a545/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/dbeb07fdbfdee77923084806fd79a545/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f180cae9e6dca4d90a7ce010b98df847/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f180cae9e6dca4d90a7ce010b98df847/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/935691d051ca6801d35f433c95bb44ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/935691d051ca6801d35f433c95bb44ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/82278c02de740364afe7d32a62268bd5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/82278c02de740364afe7d32a62268bd5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2dc343130a95e211b6007076202f31aa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2dc343130a95e211b6007076202f31aa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8a2679dcf929f1e315e4450ce630d709/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8a2679dcf929f1e315e4450ce630d709/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c6239df2356d920b04f2c22478c0f9c8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c6239df2356d920b04f2c22478c0f9c8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c4f207736205743a6129a69e5828a387/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c4f207736205743a6129a69e5828a387/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/5394f765f558a581d7cd7eb7af31b6af/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/5394f765f558a581d7cd7eb7af31b6af/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.googlecomponent.MainActivity
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-google-signin] /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-google-signin] /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.3] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/0d66da7e86d9df3a018f095c41f2a2d3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.3] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/0d66da7e86d9df3a018f095c41f2a2d3/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/262ad62e09fe56d54c4b332d3e664580/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/262ad62e09fe56d54c4b332d3e664580/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2312bf56922180d5c7bcdd0607d271e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2312bf56922180d5c7bcdd0607d271e1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/bae3e4e8e62c3bebc4a31a3a2f75ab65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/bae3e4e8e62c3bebc4a31a3a2f75ab65/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1c901faf45e6bd094d16f313ee771fba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1c901faf45e6bd094d16f313ee771fba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/17744e18821463964db12266d8859010/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/17744e18821463964db12266d8859010/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a41e2f2c95077dd397098e9914368e73/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a41e2f2c95077dd397098e9914368e73/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/624d905630b145819a2f76a6cc3aad30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/624d905630b145819a2f76a6cc3aad30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/67e5f94bb52b0d7c8cadb5485b39b542/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/67e5f94bb52b0d7c8cadb5485b39b542/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba9429fa641c6cda6ba5556e7af14af1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba9429fa641c6cda6ba5556e7af14af1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/577dff638a2adc2ea04b3de01dda2e32/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/577dff638a2adc2ea04b3de01dda2e32/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/dbeb07fdbfdee77923084806fd79a545/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/dbeb07fdbfdee77923084806fd79a545/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f180cae9e6dca4d90a7ce010b98df847/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f180cae9e6dca4d90a7ce010b98df847/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/935691d051ca6801d35f433c95bb44ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/935691d051ca6801d35f433c95bb44ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/82278c02de740364afe7d32a62268bd5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/82278c02de740364afe7d32a62268bd5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/682fb0921f877c8a6395bd56736380d5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/682fb0921f877c8a6395bd56736380d5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a9b63b49c908daeed981b33bc6e61ffb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a9b63b49c908daeed981b33bc6e61ffb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2dc343130a95e211b6007076202f31aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2dc343130a95e211b6007076202f31aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8a2679dcf929f1e315e4450ce630d709/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8a2679dcf929f1e315e4450ce630d709/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c6239df2356d920b04f2c22478c0f9c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c6239df2356d920b04f2c22478c0f9c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c4f207736205743a6129a69e5828a387/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c4f207736205743a6129a69e5828a387/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/fc47e3e7fb910ee18427c790b23e8f81/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/fc47e3e7fb910ee18427c790b23e8f81/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a482af7fe062fce26112f5542454f115/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a482af7fe062fce26112f5542454f115/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2c23ae4744a0a6fd1fcede05a19558c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/2c23ae4744a0a6fd1fcede05a19558c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/3f25c33bedd3e12f0fa7e8b6f3808922/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/3f25c33bedd3e12f0fa7e8b6f3808922/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a7e9fd255577468b996585e72c0cac8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a7e9fd255577468b996585e72c0cac8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1619f7189b1ebc70572f80f68ea7e3d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/1619f7189b1ebc70572f80f68ea7e3d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/213c17a3c148f7fcca9d666917465d42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/213c17a3c148f7fcca9d666917465d42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba852e7b41f4bebc4a35e443f78420e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ba852e7b41f4bebc4a35e443f78420e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/4b548aa039cae2f91952988e85895d0b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/4b548aa039cae2f91952988e85895d0b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/60843693ca8c2f85c2d5a1207243f4b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/60843693ca8c2f85c2d5a1207243f4b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ea1f4ed71f2c7e72f51399d57156cb52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ea1f4ed71f2c7e72f51399d57156cb52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/88fda191efeafcc44055fbaed0394301/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/88fda191efeafcc44055fbaed0394301/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebdf178d307272e6fd234831314ef3d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebdf178d307272e6fd234831314ef3d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/03173b4c74f7d54408d768b4b2394102/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/5394f765f558a581d7cd7eb7af31b6af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/5394f765f558a581d7cd7eb7af31b6af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7bac6bddcb82c45dc58543aadaa449f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7bac6bddcb82c45dc58543aadaa449f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/cc70bead13334539c965f820d75607a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/cc70bead13334539c965f820d75607a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ecefa05f50f1a444d79a32c0fa255d78/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ecefa05f50f1a444d79a32c0fa255d78/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/750c64e6816c95d8c2de42c01e205cf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/750c64e6816c95d8c2de42c01e205cf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c06a04b4c00481b0736329124f357aab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c06a04b4c00481b0736329124f357aab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f37a3b8677465d484b9c6bcca77117a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f37a3b8677465d484b9c6bcca77117a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f0d9a61f749e76d07049bf13ab2fb5e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/f0d9a61f749e76d07049bf13ab2fb5e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7ab1f5939e699a1603362a7cc2ce2158/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/7ab1f5939e699a1603362a7cc2ce2158/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/796bb203e7f07787d57e47b6788061a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/796bb203e7f07787d57e47b6788061a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebd5d357a701522f70a75c4508347895/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ebd5d357a701522f70a75c4508347895/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c26ad76cfda5b2c637d4fb6bba22c5d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/c26ad76cfda5b2c637d4fb6bba22c5d0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/softprodigy/Nivedita/googlecomponent/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/b9904025cdcfd3818b63870c6589750c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/8f16d86c10208561f0c5e6b00a373aa3/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/433231663633197e483a82edc04a91f0/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/732810b872bf3b6868abf860144e8a73/AndroidManifest.xml:31:17-139
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/33bb3c7de610c7038e16cf92050c288a/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/ab0e2a3bf6691af4116aff87947e8da4/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/31026e61021b7ff0a4ed51a288a7a14e/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/091a0650d6a5d3c0114853498cc0c120/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/softprodigy/.gradle/caches/transforms-2/files-2.1/a8294ac21da591e0168e8de5e0cbc501/AndroidManifest.xml:24:13-58

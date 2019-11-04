@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/ios/RNGoogleSignin/RNGoogleSigninButtonManager.m \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Target\ Support\ Files/RNGoogleSignin/RNGoogleSignin-prefix.pch \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/ios/RNGoogleSignin/RNGoogleSignin.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h \
+  /Users/softprodigy/Nivedita/googlecomponent/node_modules/react-native-google-signin/ios/RNGoogleSignin/RNGoogleSignInButton.h

@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Conv.cpp \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Target\ Support\ Files/Folly/Folly-prefix.pch \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Conv.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/DoubleConversion/double-conversion/double-conversion.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/DoubleConversion/double-conversion/utils.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Demangle.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/FBString.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Portability.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/CPortability.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Traits.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/hash/Hash.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Utility.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/functional/ApplyTuple.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/functional/Invoke.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Preprocessor.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/hash/SpookyHashV1.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/hash/SpookyHashV2.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/lang/Bits.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/ConstexprMath.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/lang/Assume.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/portability/Builtins.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/memory/Malloc.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/memory/detail/MallocImpl.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Expected.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Likely.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Optional.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Unit.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/lang/ColdClass.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/Range.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/portability/Constexpr.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/portability/String.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/CpuId.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/detail/RangeCommon.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/glog/glog/logging.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/glog/glog/log_severity.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Public/glog/glog/vlog_is_on.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/detail/RangeSse42.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Folly/folly/portability/Math.h

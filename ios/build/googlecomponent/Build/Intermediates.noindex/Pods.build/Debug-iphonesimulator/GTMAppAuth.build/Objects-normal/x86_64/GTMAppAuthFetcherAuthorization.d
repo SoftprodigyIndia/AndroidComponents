@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.m \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Target\ Support\ Files/GTMAppAuth/GTMAppAuth-prefix.pch \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/GTMSessionFetcher/GTMSessionFetcher.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/AppAuthCore.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthState.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthStateChangeDelegate.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthStateErrorDelegate.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationRequest.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentRequest.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDResponseTypes.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDScopes.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationResponse.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationService.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDError.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDErrorUtilities.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgent.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentSession.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDGrantTypes.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDIDToken.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDRegistrationRequest.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDRegistrationResponse.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDScopeUtilities.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDServiceConfiguration.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDServiceDiscovery.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDTokenRequest.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDTokenResponse.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDTokenUtilities.h \
+  /Users/softprodigy/Nivedita/googlecomponent/ios/Pods/Headers/Private/AppAuth/OIDURLSessionProvider.h
