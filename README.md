@@ -48,4 +48,4 @@ public class MainActivity extends ReactActivity {
 }
 
 The fifth step is to install react-navigation-drawer & react-native-reanimated
-#npm install react-navigation-tabs
+# npm install react-navigation-tabs
