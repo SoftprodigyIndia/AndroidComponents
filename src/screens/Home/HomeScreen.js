@@ -1,6 +1,15 @@
 import React from 'react';
-import {View, Text, Button, StatusBar} from 'react-native';
+import {
+  View,
+  Text,
+  Button,
+  StatusBar,
+  StyleSheet,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
 import {requestWriteExternalStorage} from '../../Permissions/Permission';
+import {KeyboardView} from '../../components/index';
 
 class HomeScreen extends React.Component {
   constructor(props) {
@@ -15,12 +24,23 @@ class HomeScreen extends React.Component {
     headerTitleStyle: {
       //  fontSize: 18,
     },
+    headerRight: (
+      <View style={{}}>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.openDrawer();
+          }}
+          style={{marginRight: 10}}>
+          <Image source={require('../../Assets/Images/menu.png')} />
+        </TouchableOpacity>
+      </View>
+    ),
   });
 
   componentDidMount() {
     this._navListener = this.props.navigation.addListener('didFocus', () => {
-      StatusBar.setBarStyle('light-content');
-      StatusBar.setBackgroundColor('red');
+      StatusBar.setBarStyle('dark-content');
+      StatusBar.setBackgroundColor('#2f2f2f');
       StatusBar.setHidden(false);
     });
     this.permission();
@@ -28,15 +48,23 @@ class HomeScreen extends React.Component {
 
   permission = async () => {
     const abc = await requestWriteExternalStorage();
-    alert(abc);
+    console.log(abc);
   };
 
   render() {
     return (
-      <View>
-        <Text>Home screen</Text>
-      </View>
+      <KeyboardView style={styles.containerStyle}>
+      <Text>Home Screen</Text>
+      </KeyboardView>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  containerStyle: {
+    flex: 1,
+    backgroundColor: 'powderblue',
+  },
+});
+
 export {HomeScreen};

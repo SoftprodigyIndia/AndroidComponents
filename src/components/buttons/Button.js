@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
-import fonts from "../../fonts";
 
 const Button = ({
   style,
@@ -40,7 +39,6 @@ const styles = StyleSheet.create({
     height: 50
   },
   textStyle: {
-    fontFamily: fonts.regular,
     fontSize: 16,
     margin
   },

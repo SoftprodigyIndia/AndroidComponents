@@ -9,3 +9,8 @@ The second step is to install react-native-gesture-handler
 
 The third step is to install react-navigation-stack
 # npm install --save react-navigation-stack
+
+
+The fourth step is to install react-navigation-drawer & react-native-reanimated
+# npm install react-navigation-drawer
+# npm install react-native-reanimated

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View,Text} from 'react-native'
+import {View,Text,StyleSheet} from 'react-native'
 
 export class ProfileScreen extends React.Component{
   static navigationOptions = ({navigation}) => ({
@@ -15,9 +15,15 @@ export class ProfileScreen extends React.Component{
   });
   render(){
     return (
-      <View>
-        <Text>Profile Screen </Text>
+      <View style={styles.containerStyle}>
+        <Text>Profile Screen</Text>
       </View>
     )
   }
 }
+const styles = StyleSheet.create({
+  containerStyle: {
+    flex: 1,
+    backgroundColor: 'lightcoral',
+  },
+});

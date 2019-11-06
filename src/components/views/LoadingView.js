@@ -1,16 +1,15 @@
 import React from 'react';
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
-import colors from '../../colors';
 
 const LoadingView = ({ overlay = false }) => {
-  const backgroundColor = (overlay) ? colors.black : colors.transparent;
+  const backgroundColor = (overlay) ? "black" : "transparent";
   const opacity = (overlay) ? 0.5 : 1;
 
   const { containerStyle } = styles;
 
   return (
     <View style={[{ backgroundColor, opacity }, containerStyle]}>
-      <ActivityIndicator size="large" color={colors.gray} />
+      <ActivityIndicator size="large" color={"gray"} />
     </View>
   );
 };

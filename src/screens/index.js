@@ -8,3 +8,5 @@ export * from './Home/HomeScreen';
 export * from './Explore/ExploreScreen';
 
 export * from './Profile/ProfileScreen'
+
+export * from './DrawerScreen/DrawerScreen'
