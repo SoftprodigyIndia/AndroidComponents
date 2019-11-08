@@ -48,6 +48,7 @@ return new RNGestureHandlerEnabledRootView(MainActivity.this);
 }
 }
 
+<<<<<<< HEAD
 The fifth step is to install react-navigation-tabs
 
 # npm install react-navigation-tabs
@@ -65,3 +66,7 @@ IF you want Facebook Authentication
 use FacebookAuth.js from Utill
 
 # npm install react-native-fbsdk
+=======
+The fifth step is to install react-navigation-drawer & react-native-reanimated
+# npm install react-navigation-tabs
+>>>>>>> a89b439f14ae303ed7287c8dc2fdb8bf129dc8bd
