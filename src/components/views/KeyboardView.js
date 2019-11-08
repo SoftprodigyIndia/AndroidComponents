@@ -2,7 +2,7 @@ import React from 'react';
 import { Platform, KeyboardAvoidingView } from 'react-native';
 
 const KeyboardView = ({ style, children }) => (
-  <KeyboardAvoidingView style={style} behavior={behavior}>
+  <KeyboardAvoidingView style={style} behavior={behavior} disabled ={true} >
     {children}
   </KeyboardAvoidingView>
 );

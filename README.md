@@ -1,18 +1,19 @@
-
 The first step is to install in your project:
+
 # npm install --save react-navigation
 
-
 The second step is to install react-native-gesture-handler
+
 # npm install --save react-native-gesture-handler
 
-
 The third step is to install react-navigation-stack
+
 # npm install --save react-navigation-stack
 
-
 The fourth step is to install react-navigation-drawer & react-native-reanimated
+
 # npm install react-navigation-drawer
+
 # npm install react-native-reanimated
 
 Android
@@ -25,27 +26,42 @@ Update your MainActivity.java file (or wherever you create an instance of ReactA
 package com.swmansion.gesturehandler.react.example;
 
 import com.facebook.react.ReactActivity;
- import com.facebook.react.ReactActivityDelegate;
- import com.facebook.react.ReactRootView;
- import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+import com.facebook.react.ReactActivityDelegate;
+import com.facebook.react.ReactRootView;
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
 public class MainActivity extends ReactActivity {
 
-  @Override
-  protected String getMainComponentName() {
-    return "Example";
-  }
+@Override
+protected String getMainComponentName() {
+return "Example";
+}
 
-  @Override
-  protected ReactActivityDelegate createReactActivityDelegate() {
-    return new ReactActivityDelegate(this, getMainComponentName()) {
-      @Override
-      protected ReactRootView createRootView() {
-       return new RNGestureHandlerEnabledRootView(MainActivity.this);
-      }
-  }
+@Override
+protected ReactActivityDelegate createReactActivityDelegate() {
+return new ReactActivityDelegate(this, getMainComponentName()) {
+@Override
+protected ReactRootView createRootView() {
+return new RNGestureHandlerEnabledRootView(MainActivity.this);
+}
+}
 }
 }
 
-The fifth step is to install react-navigation-drawer & react-native-reanimated
-#npm install react-navigation-tabs
+The fifth step is to install react-navigation-tabs
+
+# npm install react-navigation-tabs
+
+IF you want to download media or any files from server install rn-fetch-blob
+
+# npm install --save rn-fetch-blob
+
+IF you want Gmail Authentication
+use GoogleAuth.js from Utill
+
+# npm install react-native-google-signin
+
+IF you want Facebook Authentication
+use FacebookAuth.js from Utill
+
+# npm install react-native-fbsdk

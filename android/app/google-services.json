@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "378551529825",
+    "firebase_url": "https://adddemo-bfb37.firebaseio.com",
+    "project_id": "adddemo-bfb37",
+    "storage_bucket": "adddemo-bfb37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378551529825:android:8521cca873064b77",
+        "android_client_info": {
+          "package_name": "com.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378551529825-egfjvugapmd6gk2f6ilcv7g71fus9lg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.authentication",
+            "certificate_hash": "dd635326beb79e40ee60f076665551595870b694"
+          }
+        },
+        {
+          "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdztsrImBVRfXvN9DkERCfUeVZGV42Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378551529825-rp8r8fholb11iurmk1qftr57ie1iaaft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softprodigy.addDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378551529825:android:c3abecd740baedd38e1520",
+        "android_client_info": {
+          "package_name": "com.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378551529825-gai86lddbq8uht5h32i4rcff9qf75pfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.base",
+            "certificate_hash": "5a5133ae9fde21fb34cac8e64980ce06c561c3e4"
+          }
+        },
+        {
+          "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdztsrImBVRfXvN9DkERCfUeVZGV42Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378551529825-rp8r8fholb11iurmk1qftr57ie1iaaft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softprodigy.addDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378551529825:android:4f11809f7224e375",
+        "android_client_info": {
+          "package_name": "com.sampleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378551529825-vikggevkme9ti0f2b1o4eaqr3iu4a76q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sampleproject",
+            "certificate_hash": "dd635326beb79e40ee60f076665551595870b694"
+          }
+        },
+        {
+          "client_id": "378551529825-rn96vvgukd88ms9e2eltd1mpba7n2f4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sampleproject",
+            "certificate_hash": "58b4622e212b5e730253a3d9b07fbdf283142d37"
+          }
+        },
+        {
+          "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdztsrImBVRfXvN9DkERCfUeVZGV42Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378551529825-rp8r8fholb11iurmk1qftr57ie1iaaft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softprodigy.addDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
