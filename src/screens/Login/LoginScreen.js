@@ -1,7 +1,8 @@
 import React from 'react';
 import { KeyboardView } from '../../components'
 import { View, Text, StyleSheet, TextInput, Button, ScrollView, TouchableOpacity } from 'react-native'
-import { GoogleAuth } from '../../Utill/GoogleAuth'
+import { GoogleAuth } from '../../Utill/GoogleAuth';
+import { FacebookAuth } from '../../Utill/FacebookAuth'
 
 export class LoginScreen extends React.Component {
   constructor(props) {
@@ -30,6 +31,12 @@ export class LoginScreen extends React.Component {
     console.log(response.tostring())
     alert(JSON.stringify(response.user.name))
   }
+
+  FacebookSignResonse = (response) => {
+    console.log(response)
+    alert(JSON.stringify(response))
+  }
+
   render() {
     return (
       <KeyboardView style={styles.containerStyle}>
@@ -64,7 +71,11 @@ export class LoginScreen extends React.Component {
                 <Text>Gmail</Text>
               </View>
             </GoogleAuth>
-
+            <FacebookAuth onResponse={this.FacebookSignResonse}>
+              <View style={styles.btn}>
+                <Text>Facebook</Text>
+              </View>
+            </FacebookAuth>
           </View>
         </ScrollView>
       </KeyboardView>

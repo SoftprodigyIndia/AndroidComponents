@@ -23,7 +23,7 @@ class GoogleAuth extends Component {
     componentDidMount() {
 
         GoogleSignin.configure({
-            scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
+            scopes: ['https://www.googleapis.com/auth/drive.readonly', 'email', 'profile'], // what API you want to access on behalf of the user, default is email and profile
             webClientId: '378551529825-2p56j5p96idimj26cet69qo0hhbvgo81.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
             // offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
             //hostedDomain: '', // specifies a hosted domain restriction

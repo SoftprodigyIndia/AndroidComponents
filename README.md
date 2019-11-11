@@ -65,3 +65,7 @@ IF you want Facebook Authentication
 use FacebookAuth.js from Utill
 
 # npm install react-native-fbsdk
+
+     add these in strings.value for fb login
+    <string name="facebook_app_id">57273595XXXXXX</string>
+    <string name="fb_login_protocol_scheme">fb57273595XXXXXX</string>
