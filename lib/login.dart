@@ -1,26 +1,48 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_googlesignin/sign_in.dart';
 
-import 'login.dart';
+import 'firstscreen.dart';
 
-void main() => runApp(MyApp());
+class LoginPage extends StatefulWidget {
+  @override
+  _LoginPageState createState() => _LoginPageState();
+}
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+    return Scaffold(
+      body: Container(
+        color: Colors.white,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              FlutterLogo(size: 150),
+              SizedBox(height: 50),
+              _signInButton(),
+            ],
+          ),
+        ),
       ),
-      home: LoginPage(),
     );
   }
+
   Widget _signInButton() {
     return OutlineButton(
       splashColor: Colors.grey,
-      onPressed: () {},
+      onPressed: () {
+        signInWithGoogle().whenComplete(() {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) {
+                return FirstScreen();
+              },
+            ),
+          );
+        });
+      },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
       borderSide: BorderSide(color: Colors.grey),
@@ -46,6 +68,5 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+
 }
-
-
