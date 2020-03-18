@@ -1,87 +1,176 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_googlemaps/maps.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'dart:async';
 
-void main() => runApp(MyApp());
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_twitterlogin/util/strings.dart';
+import 'package:flutter_twitter_login/flutter_twitter_login.dart';
+
+void main() => runApp(new MyApp());
+
+final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return new MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
+      theme: new ThemeData(
+
         primarySwatch: Colors.blue,
       ),
-      home: Map(),
+      home: new MyHomePage(title: 'Flutter Auth With Twitter'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
+
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyHomePageState createState() => new _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  StreamSubscription<FirebaseUser> _listener;
 
-  Position position;
-  Widget _child;
+  FirebaseUser _currentUser;
+
+  TwitterLoginResult _twitterLoginResult;
+  TwitterLoginStatus _twitterLoginStatus;
+  TwitterSession _currentUserTwitterSession;
+
+  String _loggedInMessage;
+
+  void _handleTwitterSignIn() async {
+    String snackBarMessage = '';
+
+    final TwitterLogin twitterLogin = new TwitterLogin(
+        consumerKey: Strings.twitterApiKey,
+        consumerSecret: Strings.twitterApiSecret
+    );
+
+    _twitterLoginResult = await twitterLogin.authorize();
+    _currentUserTwitterSession = _twitterLoginResult.session;
+    _twitterLoginStatus = _twitterLoginResult.status;
+
+    switch (_twitterLoginStatus) {
+      case TwitterLoginStatus.loggedIn:
+        _currentUserTwitterSession = _twitterLoginResult.session;
+        snackBarMessage = 'Successfully signed in as';
+        break;
+
+      case TwitterLoginStatus.cancelledByUser:
+        snackBarMessage = 'Sign in cancelled by user.';
+        break;
+
+      case TwitterLoginStatus.error:
+        snackBarMessage = 'An error occurred signing with Twitter.';
+        break;
+    }
+
+    AuthCredential _authCredential = TwitterAuthProvider.getCredential(
+        authToken: _currentUserTwitterSession?.token ?? '',
+        authTokenSecret: _currentUserTwitterSession?.secret ?? ''
+    );
+    _currentUser = (await _firebaseAuth.signInWithCredential(
+        _authCredential
+    )) as FirebaseUser;
+
+    setState(() {
+
+
+
+
+
+      if (_twitterLoginStatus == TwitterLoginStatus.loggedIn && _currentUser != null) {
+        _loggedInMessage = '$snackBarMessage ${_currentUser.displayName}';
+
+      } else {
+
+        _loggedInMessage = _loggedInMessage = '$snackBarMessage';
+      }
+    });
+  }
+
+  Widget buildHome(BuildContext context) {
+    return new Center(
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            new Container(
+              padding: const EdgeInsets.only(
+                  top: 64.0, bottom: 64.0, left: 16.0, right: 16.0),
+              child: new RaisedButton(
+                  color: const Color.fromRGBO(29, 161, 242, 1.0),
+                  child: new Row(
+                    children: <Widget>[
+                      new Container(
+                          padding: const EdgeInsets.only(
+                              top: 8.0, bottom: 8.0, left: 16.0, right: 32.0),
+                          child: new Image.asset('assets/images/twitter.png', height: 25.0, width: 25.0,)),
+                      new Expanded(
+                        child: new Text(
+                          Strings.twitterText,
+                          style: new TextStyle(color: Colors.white),
+                        ),
+                      )
+                    ],
+                  ),
+                  onPressed: _handleTwitterSignIn
+              ),
+            ),
+            new Expanded(
+              child: new Text(
+                _loggedInMessage?? 'Not logged In...',
+                style: new TextStyle(color: Colors.black),
+              ),
+            )
+          ],
+        )
+    );
+  }
+
+  void _checkCurrentUser() async {
+    _currentUser = await _firebaseAuth.currentUser();
+    _currentUser?.getIdToken(refresh: true);
+
+    _listener = _firebaseAuth.onAuthStateChanged.listen((FirebaseUser user) {
+      setState(() {
+        _currentUser = user;
+      });
+    });
+  }
+
   @override
-
   void initState() {
-    getCurrentLocation();
-    _child=SpinKitRipple(color: Colors.amberAccent,
-      size: 50.0,);
     super.initState();
+    _checkCurrentUser();
+  }
+
+  @override
+  void dispose() {
+    _listener.cancel();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    GoogleMapController _controller;
-    return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body:_child);
-  }
 
-  Widget googlemaps() {
-    return GoogleMap(
-      mapType: MapType.normal,
-      zoomGesturesEnabled: true,
-      tiltGesturesEnabled: false,
-      markers: _createMarker(),
-      initialCameraPosition:
-          CameraPosition(target: LatLng(position.latitude,position.longitude), zoom: 12.0),
-      onMapCreated: (GoogleMapController controller) {
-        var _controller = controller;
 
-      },
 
+
+
+
+    return new Scaffold(
+      appBar: new AppBar(
+
+
+        title: new Text(widget.title),
+      ),
+      body: buildHome(context),
     );
-  }
-
-  void getCurrentLocation() async {
-    Position res = await Geolocator().getCurrentPosition();
-    setState(() {
-      position=res;
-      _child=googlemaps();
-
-    });
-  }
-
-  Set<Marker> _createMarker() {
-    return<Marker>[Marker(
-      markerId: MarkerId('demo'),
-      position: LatLng(position.latitude,position.longitude),
-      icon: BitmapDescriptor.defaultMarker,
-      infoWindow: InfoWindow(title: "Demo")
-    )].toSet();
   }
 }

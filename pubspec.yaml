@@ -1,4 +1,4 @@
-name: flutter_googlemaps
+name: flutter_twitterlogin
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -19,13 +19,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  geolocator: ^5.3.0
-  google_maps_flutter: ^0.5.24
-  flutter_spinkit: ^4.1.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  google_sign_in: 4.1.4
+  firebase_auth: 0.15.5+2
+  flutter_twitter_login: ^1.1.0
 
 dev_dependencies:
   flutter_test:

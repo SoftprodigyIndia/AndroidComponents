@@ -1,4 +1,4 @@
-package com.flutter_googlemaps
+package com.flutter_twitterlogin
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
