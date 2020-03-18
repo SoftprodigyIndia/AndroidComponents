@@ -1,4 +1,4 @@
-package com.flutter_firebasepush
+package com.flutter_googlemaps
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

@@ -1,65 +1,87 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter_googlemaps/maps.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
-  State<StatefulWidget> createState() {
-    return _MyAppState();
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Map(),
+    );
   }
 }
 
-class _MyAppState extends State<MyApp> {
-  String _message = '';
-
-  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-
-  _register() {
-    _firebaseMessaging.getToken().then((token) => print(token));
-  }
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+  final String title;
 
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    getMessage();
-  }
+  _MyHomePageState createState() => _MyHomePageState();
+}
 
-  void getMessage(){
-    _firebaseMessaging.configure(
-        onMessage: (Map<String, dynamic> message) async {
-          print('on message $message');
-          setState(() => _message = message["notification"]["title"]);
-        }, onResume: (Map<String, dynamic> message) async {
-      print('on resume $message');
-      setState(() => _message = message["notification"]["title"]);
-    }, onLaunch: (Map<String, dynamic> message) async {
-      print('on launch $message');
-      setState(() => _message = message["notification"]["title"]);
-    });
+class _MyHomePageState extends State<MyHomePage> {
+
+  Position position;
+  Widget _child;
+  @override
+
+  void initState() {
+    getCurrentLocation();
+    _child=SpinKitRipple(color: Colors.amberAccent,
+      size: 50.0,);
+    super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text("Message: $_message"),
-                OutlineButton(
-                  child: Text("Register My Device"),
-                  onPressed: () {
-                    _register();
-                  },
-                ),
-                // Text("Message: $message")
-              ]),
+    GoogleMapController _controller;
+    return Scaffold(
+        appBar: AppBar(
+          title: Text(widget.title),
         ),
-      ),
+        body:_child);
+  }
+
+  Widget googlemaps() {
+    return GoogleMap(
+      mapType: MapType.normal,
+      zoomGesturesEnabled: true,
+      tiltGesturesEnabled: false,
+      markers: _createMarker(),
+      initialCameraPosition:
+          CameraPosition(target: LatLng(position.latitude,position.longitude), zoom: 12.0),
+      onMapCreated: (GoogleMapController controller) {
+        var _controller = controller;
+
+      },
+
     );
+  }
+
+  void getCurrentLocation() async {
+    Position res = await Geolocator().getCurrentPosition();
+    setState(() {
+      position=res;
+      _child=googlemaps();
+
+    });
+  }
+
+  Set<Marker> _createMarker() {
+    return<Marker>[Marker(
+      markerId: MarkerId('demo'),
+      position: LatLng(position.latitude,position.longitude),
+      icon: BitmapDescriptor.defaultMarker,
+      infoWindow: InfoWindow(title: "Demo")
+    )].toSet();
   }
 }

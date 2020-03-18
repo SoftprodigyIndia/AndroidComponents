@@ -1,4 +1,4 @@
-# flutter_firebasepush
+# flutter_googlemaps
 
 A new Flutter application.
 
