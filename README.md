@@ -1,4 +1,4 @@
-# flutter_googlesignin
+# flutter_firebasepush
 
 A new Flutter application.
 

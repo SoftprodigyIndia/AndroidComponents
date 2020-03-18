@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "725135373949",
-    "firebase_url": "https://login-demo-c104a.firebaseio.com",
-    "project_id": "login-demo-c104a",
-    "storage_bucket": "login-demo-c104a.appspot.com"
+    "project_number": "16540514062",
+    "firebase_url": "https://flutterpushdemo-31d28.firebaseio.com",
+    "project_id": "flutterpushdemo-31d28",
+    "storage_bucket": "flutterpushdemo-31d28.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:725135373949:android:20c781b67dd8afc9632314",
+        "mobilesdk_app_id": "1:16540514062:android:6913b4761c04faea27495f",
         "android_client_info": {
-          "package_name": "com.flutter_googlesignin"
+          "package_name": "com.flutter_firebasepush"
         }
       },
       "oauth_client": [
         {
-          "client_id": "725135373949-ibpos4edrst7p6gj096t0b5nja07vb1a.apps.googleusercontent.com",
+          "client_id": "16540514062-n7t9qmln9b6cqbnfks68j05i3l620hep.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.flutter_googlesignin",
+            "package_name": "com.flutter_firebasepush",
             "certificate_hash": "6c8a0885f0eeb6032394be9e3ef69af4b5a9fd6f"
           }
         },
         {
-          "client_id": "725135373949-du0sdd7oangigdg6oudrl1fjlvk1hsrs.apps.googleusercontent.com",
+          "client_id": "16540514062-o2g6m8fbue9v1d1rd6dq04banu5poscv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBvxUQMe1TSJK6Hdl7fHqjh9Qj4GxA62H0"
+          "current_key": "AIzaSyCFNUyt6LUNcK9Xsmsc9EVyjTWiJJnS0BI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "725135373949-du0sdd7oangigdg6oudrl1fjlvk1hsrs.apps.googleusercontent.com",
+              "client_id": "16540514062-o2g6m8fbue9v1d1rd6dq04banu5poscv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

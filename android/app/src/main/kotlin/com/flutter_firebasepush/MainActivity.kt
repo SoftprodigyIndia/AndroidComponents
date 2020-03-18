@@ -1,4 +1,4 @@
-package com.flutter_googlesignin
+package com.flutter_firebasepush
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
