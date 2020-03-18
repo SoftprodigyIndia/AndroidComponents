@@ -1,4 +1,4 @@
-package com.flutter_twitterlogin
+package com.flutter_fleek
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
