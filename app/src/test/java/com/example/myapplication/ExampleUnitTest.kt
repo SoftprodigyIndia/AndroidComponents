@@ -1,4 +1,4 @@
-package softprodigy.samplesapplication
+package com.example.myapplication
 
 import org.junit.Test
 
