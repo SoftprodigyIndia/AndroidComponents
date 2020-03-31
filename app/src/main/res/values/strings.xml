@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FirebaseDemo</string>
+    <array name="gen">
+        <item>"Punjabi"</item>
+        <item>"Hindi"</item>
+        <item>"English"</item>
+        <item>"Folk"</item>
+
+    </array>
 </resources>
