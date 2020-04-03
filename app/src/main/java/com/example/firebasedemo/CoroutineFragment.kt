@@ -1,5 +1,6 @@
 package com.example.firebasedemo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_coroutine_fragment.*
@@ -22,6 +23,10 @@ class CoroutineFragment : AppCompatActivity() {
             CoroutineScope(IO).launch {
                 fakeApiRequest()
             }
+        }
+
+        btn.setOnClickListener {
+            startActivity(Intent(this@CoroutineFragment,NetworkActivity::class.java))
         }
 
     }
