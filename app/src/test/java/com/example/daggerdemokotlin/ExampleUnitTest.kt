@@ -1,4 +1,4 @@
-package softprodigy.samplesapplication
+package com.example.daggerdemokotlin
 
 import org.junit.Test
 
