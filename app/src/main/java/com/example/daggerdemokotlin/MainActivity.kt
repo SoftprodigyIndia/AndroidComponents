@@ -1,5 +1,6 @@
 package com.example.daggerdemokotlin
 
+import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.RequestManager
 import com.example.daggerdemokotlin.ui.MainViewModel
+import com.example.daggerdemokotlin.ui.home.HomeActivity
 import com.example.daggerdemokotlin.viewmodel.ViewModelProviderFactory
 import dagger.android.support.DaggerAppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -53,6 +55,7 @@ class MainActivity : DaggerAppCompatActivity() {
         mainViewModel.mutableMain.observe(this, Observer {
 
             Log.e("name",it.name)
+            startActivity(Intent(this,HomeActivity::class.java))
         })
 
     }
