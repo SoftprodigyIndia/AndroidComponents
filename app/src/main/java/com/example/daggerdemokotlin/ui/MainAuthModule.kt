@@ -1,6 +1,7 @@
 package com.example.daggerdemokotlin.ui
 
 import com.example.daggerdemokotlin.network.ApiInterface
+import com.example.daggerdemokotlin.ui.postfragment.PostAdapter
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -16,5 +17,12 @@ class MainAuthModule {
         fun provideAuthApi(retrofit: Retrofit):ApiInterface{
             return   retrofit.create(ApiInterface::class.java)
         }
+        @Provides
+        @JvmStatic
+        fun postAdapter():PostAdapter{
+            return  PostAdapter()
+        }
     }
+
+
 }
